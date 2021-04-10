@@ -1,4 +1,4 @@
-#CS639Project 
+#CS639Project
 
 This is a repository specially created for Final Project of Mobile App Development Spring 2021
 
