@@ -20,5 +20,6 @@ Proposed Project Idea: COVID-19 Statistics App
 (1)	covid19india.org for India specific API <br>
 (2)	corona.lmao.ninja for global API <br>
 (3)	Eaze graph for showing pie chart <br>
-(4)	Glide for showing flag images
+(4)	Glide for showing flag images <br>
+(5) Volly Library for fetching data from JSON dataset
 
