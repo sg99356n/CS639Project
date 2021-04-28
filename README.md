@@ -3,7 +3,7 @@ This is a repository specially created for Final Project of Mobile App Developme
 
 Team members: Sanath Gholap, Tushar Rakholiya, Ramesh Kyasaram
 
-Proposed Project Idea: COVID-19 Statistics App
+Proposed Project Idea: COVID-19 Tracker App
 
 1.	As COVID-19 spreads, number of COVID-19 monitoring apps have been developed to aid in the pandemic's containment. The World Health Organization (WHO) declared the COVID-19 outbreak a pandemic on March 11, 2020. Many countries implemented measures to curb or mitigate the pandemic's impacts, including complete economic shutdowns. In India, there is no dedicated application for normal users to retrieve statistics about the current situation if he/she wants to get understanding about it. Daily around 100k people’s gets infected with covid19 virus in India. People belonging to rural areas find it hard to get the knowledge from the internet for many reasons. Sometimes the media misleads their audience with false data and these people don’t get to know the complete truth. So we are creating an application for users where they can get the up-to-date statistics about the covid19 cases and additional information regarding the pandemic.
 
