@@ -1,0 +1,199 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cs639project.covid19tracker"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:5:5-67
+11-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:6:5-79
+12-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:7:5-79
+13-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.android.gms:play-services-measurement-api:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\45711b2741317fb26b1043919e54b65b\jetified-play-services-measurement-api-18.0.3\AndroidManifest.xml:24:5-68
+14-->[com.google.android.gms:play-services-measurement-api:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\45711b2741317fb26b1043919e54b65b\jetified-play-services-measurement-api-18.0.3\AndroidManifest.xml:24:22-65
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\1a6f26611821164cbc58433a40210e03\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\1a6f26611821164cbc58433a40210e03\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:26:22-107
+16
+17    <application
+17-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:10:5-37:19
+18        android:allowBackup="true"
+18-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:11:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.2.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\9563e16c4167e4e012c87e415aa93568\core-1.2.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:12:9-43
+22        android:label="@string/app_name"
+22-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:13:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:14:9-54
+24        android:supportsRtl="true"
+24-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:15:9-35
+25        android:theme="@style/AppTheme" >
+25-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:16:9-40
+26        <activity android:name="com.cs639project.covid19tracker.SplashActivity" >
+26-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:17:9-23:20
+26-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:17:19-80
+27            <intent-filter>
+27-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:18:13-22:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:19:17-69
+28-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:19:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:21:17-77
+30-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:21:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="com.cs639project.covid19tracker.EachCountryDataActivity" />
+33-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:24:9-92
+33-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:24:19-89
+34        <activity android:name="com.cs639project.covid19tracker.CountryWiseDataActivity" />
+34-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:25:9-92
+34-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:25:19-89
+35        <activity android:name="com.cs639project.covid19tracker.EachStateDataActivity" />
+35-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:26:9-90
+35-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:26:19-87
+36        <activity android:name="com.cs639project.covid19tracker.StateWiseDataActivity" />
+36-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:27:9-90
+36-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:27:19-87
+37        <activity android:name="com.cs639project.covid19tracker.WorldDataActivity" />
+37-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:28:9-86
+37-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:28:19-83
+38        <activity android:name="com.cs639project.covid19tracker.MainActivity" >
+38-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:30:9-36:20
+38-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:30:19-78
+39            <intent-filter>
+39-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:18:13-22:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:19:17-69
+40-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:19:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:21:17-77
+42-->R:\Pace\Mobile App Development\CovidProject\Covid19Tracker-master\Covid19Tracker-master\app\src\main\AndroidManifest.xml:21:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <service
+46-->[com.google.firebase:firebase-database:19.7.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\cf0a4ba0ea922cf8b25f9ba94b4973dd\jetified-firebase-database-19.7.0\AndroidManifest.xml:29:9-35:19
+47            android:name="com.google.firebase.components.ComponentDiscoveryService"
+47-->[com.google.firebase:firebase-database:19.7.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\cf0a4ba0ea922cf8b25f9ba94b4973dd\jetified-firebase-database-19.7.0\AndroidManifest.xml:30:13-84
+48            android:directBootAware="true"
+48-->[com.google.firebase:firebase-common:19.5.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\3ced9d3339e889ec70440273af9b9803\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+49            android:exported="false" >
+49-->[com.google.firebase:firebase-database:19.7.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\cf0a4ba0ea922cf8b25f9ba94b4973dd\jetified-firebase-database-19.7.0\AndroidManifest.xml:31:13-37
+50            <meta-data
+50-->[com.google.firebase:firebase-database:19.7.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\cf0a4ba0ea922cf8b25f9ba94b4973dd\jetified-firebase-database-19.7.0\AndroidManifest.xml:32:13-34:85
+51                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+51-->[com.google.firebase:firebase-database:19.7.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\cf0a4ba0ea922cf8b25f9ba94b4973dd\jetified-firebase-database-19.7.0\AndroidManifest.xml:33:17-109
+52                android:value="com.google.firebase.components.ComponentRegistrar" />
+52-->[com.google.firebase:firebase-database:19.7.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\cf0a4ba0ea922cf8b25f9ba94b4973dd\jetified-firebase-database-19.7.0\AndroidManifest.xml:34:17-82
+53            <meta-data
+53-->[com.google.firebase:firebase-config:20.0.4] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\b7fb455e7dbeccc5667a08043a71a4ca\jetified-firebase-config-20.0.4\AndroidManifest.xml:32:13-34:85
+54                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+54-->[com.google.firebase:firebase-config:20.0.4] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\b7fb455e7dbeccc5667a08043a71a4ca\jetified-firebase-config-20.0.4\AndroidManifest.xml:33:17-117
+55                android:value="com.google.firebase.components.ComponentRegistrar" />
+55-->[com.google.firebase:firebase-config:20.0.4] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\b7fb455e7dbeccc5667a08043a71a4ca\jetified-firebase-config-20.0.4\AndroidManifest.xml:34:17-82
+56            <meta-data
+56-->[com.google.android.gms:play-services-measurement-api:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\45711b2741317fb26b1043919e54b65b\jetified-play-services-measurement-api-18.0.3\AndroidManifest.xml:30:13-32:85
+57                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+57-->[com.google.android.gms:play-services-measurement-api:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\45711b2741317fb26b1043919e54b65b\jetified-play-services-measurement-api-18.0.3\AndroidManifest.xml:31:17-139
+58                android:value="com.google.firebase.components.ComponentRegistrar" />
+58-->[com.google.android.gms:play-services-measurement-api:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\45711b2741317fb26b1043919e54b65b\jetified-play-services-measurement-api-18.0.3\AndroidManifest.xml:32:17-82
+59            <meta-data
+59-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\f0b8404bd8dcd29fbf7239b7d60fddfd\jetified-firebase-abt-20.0.0\AndroidManifest.xml:13:13-15:85
+60                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+60-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\f0b8404bd8dcd29fbf7239b7d60fddfd\jetified-firebase-abt-20.0.0\AndroidManifest.xml:14:17-109
+61                android:value="com.google.firebase.components.ComponentRegistrar" />
+61-->[com.google.firebase:firebase-abt:20.0.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\f0b8404bd8dcd29fbf7239b7d60fddfd\jetified-firebase-abt-20.0.0\AndroidManifest.xml:15:17-82
+62            <meta-data
+62-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\633b133f42b636b6a28c359728b674af\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+63                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+63-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\633b133f42b636b6a28c359728b674af\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+64                android:value="com.google.firebase.components.ComponentRegistrar" />
+64-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\633b133f42b636b6a28c359728b674af\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+65            <!--
+66                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+67                clients to use it as well, by defining this registrar in their own core/common library.
+68            -->
+69            <meta-data
+69-->[com.google.firebase:firebase-common:19.5.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\3ced9d3339e889ec70440273af9b9803\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+70                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+70-->[com.google.firebase:firebase-common:19.5.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\3ced9d3339e889ec70440273af9b9803\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[com.google.firebase:firebase-common:19.5.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\3ced9d3339e889ec70440273af9b9803\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+72        </service>
+73
+74        <provider
+74-->[com.google.firebase:firebase-common:19.5.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\3ced9d3339e889ec70440273af9b9803\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+75            android:name="com.google.firebase.provider.FirebaseInitProvider"
+75-->[com.google.firebase:firebase-common:19.5.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\3ced9d3339e889ec70440273af9b9803\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+76            android:authorities="com.cs639project.covid19tracker.firebaseinitprovider"
+76-->[com.google.firebase:firebase-common:19.5.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\3ced9d3339e889ec70440273af9b9803\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+77            android:directBootAware="true"
+77-->[com.google.firebase:firebase-common:19.5.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\3ced9d3339e889ec70440273af9b9803\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+78            android:exported="false"
+78-->[com.google.firebase:firebase-common:19.5.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\3ced9d3339e889ec70440273af9b9803\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+79            android:initOrder="100" />
+79-->[com.google.firebase:firebase-common:19.5.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\3ced9d3339e889ec70440273af9b9803\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+80
+81        <activity
+81-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\9688d2feae5f2faac0712d67d2d62438\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+82            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+82-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\9688d2feae5f2faac0712d67d2d62438\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+83            android:exported="false"
+83-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\9688d2feae5f2faac0712d67d2d62438\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+84-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\9688d2feae5f2faac0712d67d2d62438\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+85
+86        <receiver
+86-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\1a6f26611821164cbc58433a40210e03\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:29:9-33:20
+87            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+87-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\1a6f26611821164cbc58433a40210e03\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:30:13-85
+88            android:enabled="true"
+88-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\1a6f26611821164cbc58433a40210e03\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:31:13-35
+89            android:exported="false" >
+89-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\1a6f26611821164cbc58433a40210e03\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:32:13-37
+90        </receiver>
+91
+92        <service
+92-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\1a6f26611821164cbc58433a40210e03\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:35:9-38:40
+93            android:name="com.google.android.gms.measurement.AppMeasurementService"
+93-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\1a6f26611821164cbc58433a40210e03\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:36:13-84
+94            android:enabled="true"
+94-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\1a6f26611821164cbc58433a40210e03\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:37:13-35
+95            android:exported="false" />
+95-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\1a6f26611821164cbc58433a40210e03\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:38:13-37
+96        <service
+96-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\1a6f26611821164cbc58433a40210e03\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:39:9-43:72
+97            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+97-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\1a6f26611821164cbc58433a40210e03\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:40:13-87
+98            android:enabled="true"
+98-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\1a6f26611821164cbc58433a40210e03\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:41:13-35
+99            android:exported="false"
+99-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\1a6f26611821164cbc58433a40210e03\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:42:13-37
+100            android:permission="android.permission.BIND_JOB_SERVICE" />
+100-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\1a6f26611821164cbc58433a40210e03\jetified-play-services-measurement-18.0.3\AndroidManifest.xml:43:13-69
+101
+102        <meta-data
+102-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\4a5676ac075bc1496735217fa826c88d\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+103            android:name="com.google.android.gms.version"
+103-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\4a5676ac075bc1496735217fa826c88d\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+104            android:value="@integer/google_play_services_version" />
+104-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\12019\.gradle\caches\transforms-2\files-2.1\4a5676ac075bc1496735217fa826c88d\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+105    </application>
+106
+107</manifest>
